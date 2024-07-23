@@ -1,0 +1,80 @@
+body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-color: #f0f0f0; /* Lightened background color for better contrast */
+}
+
+.container {
+  width: 320px;
+  padding: 20px;
+  background-color: #ffffff; /* Clean white background */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Slightly stronger shadow */
+  border-radius: 10px;
+  text-align: center;
+}
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#toggle-container {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+#toggle-container button {
+  background: none;
+  border: none;
+  color: #007bff; /* Link color */
+  font-size: 16px;
+  cursor: pointer;
+  text-decoration: underline;
+  padding: 0;
+  margin: 0 5px; /* Add some spacing between the links */
+}
+
+#toggle-container button:hover {
+  color: #0056b3; /* Darker shade on hover */
+  text-decoration: none;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.form h2 {
+  margin-bottom: 20px;
+  font-size: 24px; /* Increased font size for better readability */
+}
+
+.form input {
+  margin-bottom: 12px; /* Increased margin for better spacing */
+  padding: 12px;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  font-size: 16px; /* Increased font size for better readability */
+}
+
+.form button {
+  padding: 12px;
+  border: none;
+  background-color: #28a745; /* Green color for the submit button */
+  color: #ffffff; /* Text color */
+  cursor: pointer;
+  border-radius: 6px; /* Slightly more rounded corners */
+  font-size: 16px; /* Increased font size */
+}
+
+.form button:hover {
+  background-color: #218838; /* Darker green on hover */
+}
