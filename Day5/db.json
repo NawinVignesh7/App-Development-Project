@@ -1,0 +1,23 @@
+{
+  "users": [
+    {
+      "id": "9938",
+      "email": "nawinvigneshp@gmail.com",
+      "password": "1234567890",
+      "role": "admin",
+      "username": "Nawin Vignesh"
+    },
+    {
+      "email": "727722eucs117@skcet.ac.in",
+      "username": "Nawin Vignesh",
+      "id": "5229"
+    },
+    {
+      "id": "6cc4",
+      "email": "jeevan@gmail.com",
+      "password": "1234567890",
+      "role": "admin",
+      "username": "Nawin Vignesh"
+    }
+  ]
+}
